@@ -1,0 +1,62 @@
+body {
+  padding-bottom: 5rem;
+  font-family: Roboto;
+}
+
+label,div, li, ul, input, .mdl-list__item {
+  font-size: 12px;
+  font-family: Roboto;
+  letter-spacing: normal;
+}
+
+.mainList {
+  display: inline;
+  width: 700px;
+}
+
+.actualItems {
+  width: 400px;
+}
+
+h1 {
+  color: hsla(100, 100%, 0%, 0.9);
+  font-weight: bold;
+}
+
+main {
+  max-width: 900px;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
+}
+
+.mdl-checkbox {
+  height: 15px;
+  width: 15%;
+}
+
+.mdl-button {
+  font-size: 12px;
+}
+
+.mdl-list__item {
+  padding: 0 16px;
+}

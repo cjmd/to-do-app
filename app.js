@@ -17,19 +17,32 @@ function onReady() {
 
     // set the input's type to checkbox
     checkbox.type = "checkbox";
+    checkbox.classList.add("mdl-checkbox");
+
+    // create delete button
+    let deleteBtn = document.createElement('button');
+    deleteBtn.innerHTML = "Delete";
+    deleteBtn.classList.add("mdl-button");
 
     // set title
     newLi.textContent = title;
 
     // attach the checkbox to li
     newLi.appendChild(checkbox);
+    newLi.appendChild(deleteBtn);
+
+    newLi.classList.add("mdl-list__item");
 
     // attach the li to the ul
     toDoList.appendChild(newLi);
 
     // empty the input
     newToDoText.value = '';
-  });
+
+    deleteBtn.onclick = function() {
+      toDoList.removeChild(newLi);
+    }
+  })
 }
 
 window.onload = function() {
