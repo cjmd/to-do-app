@@ -27,14 +27,6 @@ main {
   max-width: 900px;
 }
 
-.project-description {
-  padding-left: 0;
-}
-
-.project img {
-  width: 100%;
-}
-
 footer.mdl-mini-footer {
   bottom: 0;
   padding: 0.5rem;
@@ -57,6 +49,6 @@ footer.mdl-mini-footer > ul {
   font-size: 12px;
 }
 
-.mdl-list__item {
-  padding: 0 16px;
+.mdl-list__item, .mdl-list {
+  padding: 16px;
 }
